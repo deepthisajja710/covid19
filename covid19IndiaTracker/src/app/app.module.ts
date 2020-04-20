@@ -10,6 +10,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { StatetableComponent } from './components/statetable/statetable.component';
 import { DistricttableComponent } from './components/districttable/districttable.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { ChartsComponent } from './components/charts/charts.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardsComponent } from './components/cards/cards.component';
     HomepageComponent,
     StatetableComponent,
     DistricttableComponent,
-    CardsComponent
+    CardsComponent,
+    ChartsComponent
   ],
   imports: [
     BrowserModule,
