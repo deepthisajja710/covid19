@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    border-bottom: 1px solid grey;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .title{
+        font-size: 80%;
+    }
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    .title{
+        font-size: 80%;
+    }
+}
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    .title{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+    .title{
+        font-size: 80%;
+    }
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .title{
+        font-size: 80%;
+    }
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .title{
+        font-size: 80%;
+    }
+}

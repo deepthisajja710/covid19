@@ -1,0 +1,64 @@
+#dashboard-table{
+    width:100%;
+    th{
+        background-color: #F2F2F2;
+    }
+    tr th, tr td{
+        font-size: 1em;
+        // width:18em;
+        border: none;
+    }
+    th:first-child, td:first-child {
+        // width:11em !important;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #dashboard-table{
+        tr th, tr td{
+            font-size: 63%;
+        }
+    }
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    #dashboard-table{
+        tr th, tr td{
+            font-size: 53%;
+        }
+    }
+}
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    #dashboard-table{
+        tr th, tr td{
+            font-size: 63%;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+    #dashboard-table{
+        tr th, tr td{
+            font-size: 63%;
+        }
+    }
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    #dashboard-table{
+        tr th, tr td{
+            font-size: 63%;
+        }
+    }
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    #dashboard-table{
+        tr th, tr td{
+            font-size: 63%;
+        }
+    }
+}

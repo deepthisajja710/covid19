@@ -1,0 +1,129 @@
+.cards{
+    border: none;
+    padding: 0.5em;
+    // margin: 0.1em;
+}
+.status{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25em;
+}
+.count{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    height: 6em;
+    border-radius: 1em;
+}
+.cards_confirmed{
+    background : transparent linear-gradient(90deg, #EA1C0A 0%, #FF6D60 100%) 0% 0% no-repeat padding-box;
+    color: white;
+}
+.cards_active{
+    background : transparent linear-gradient(90deg, rgb(4, 124, 139) 0%, rgb(121, 238, 238) 100%) 0% 0% no-repeat padding-box;
+    color: white;
+}
+.cards_recovered{
+    background : transparent linear-gradient(90deg, rgb(32, 177, 6) 0%, rgb(142, 235, 119) 100%) 0% 0% no-repeat padding-box;
+    color: white;
+}
+.cards_deceased{
+    background : transparent linear-gradient(90deg, rgb(73, 72, 72) 0%, rgb(189, 190, 189) 100%) 0% 0% no-repeat padding-box;
+    color: white;
+}
+.updated_time{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 0.5em;
+}
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .status{
+        font-size: 75%;
+    }
+    .count{
+        font-size: 80%;
+    }
+    .card{
+        width: 23%;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+    .updated_time{
+        font-size: 70%;
+    }
+  }
+   
+  /* (320x480) Smartphone, Portrait */
+  @media only screen and (device-width: 320px) and (orientation: portrait) {
+    .status{
+        font-size: 65%;
+    }
+    .count{
+        font-size: 80%;
+    }
+    .updated_time{
+        font-size: 70%;
+    }
+  }
+  /* (320x480) Smartphone, Landscape */
+  @media only screen and (device-width: 480px) and (orientation: landscape) {
+    .status{
+        font-size: 75%;
+    }
+    .count{
+        font-size: 80%;
+    }
+    .updated_time{
+        font-size: 70%;
+    }
+  }
+  
+  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+    .status{
+        font-size: 75%;
+    }
+    .count{
+        font-size: 80%;
+    }
+    .updated_time{
+        font-size: 70%;
+    }
+  }
+   
+  /* (480x800) Android */
+  @media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .status{
+        font-size: 75%;
+    }
+    .count{
+        font-size: 80%;
+    }
+    .updated_time{
+        font-size: 70%;
+    }
+  }
+   
+  /* (640x960) iPhone 4 & 4S */
+  @media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .status{
+        font-size: 75%;
+    }
+    .count{
+        font-size: 80%;
+    } 
+    .updated_time{
+        font-size: 70%;
+    }
+  }
+  
